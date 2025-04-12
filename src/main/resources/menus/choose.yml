@@ -1,27 +1,25 @@
-id: menu
-title: "&bМеню игрока %player_name%"
+title: "&bВыберите категорию"
 size: 27
 items:
-  open_shop:
+  prefix:
     material: CHEST
     name: "&aОткрыть магазин"
     slot: 11
-    action:
-      - '[message] открыл братик'
-  get_diamond:
+    lore:
+      - ''
+  title:
     material: DIAMOND
     name: "&bПолучить Алмаз"
     slot: 13
     permission: menu.diamond
-    action:
-      - '[console] give %player% diamond 1'
-  opme:
+    lore:
+      - ''
+  effect:
     material: NETHER_STAR
     name: "&cВыдать себе OP (через консоль)"
     slot: 15
-    action:
-      - '[message] &aСегодня без опки!'
-      - '[close]'
+    lore:
+      - ''
   panels:
     material: STONE
     name: ""
