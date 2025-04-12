@@ -1,0 +1,9 @@
+groups:
+  player:
+    prefixes:
+      - '11111'
+      - '333333'
+    titles:
+      - '0000'
+    effects:
+      - ATTACK_EFFECT

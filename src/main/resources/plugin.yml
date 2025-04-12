@@ -1,0 +1,7 @@
+name: customize-group
+version: '${version}'
+main: org.example.CustomizePlugin
+api-version: '1.16'
+commands:
+  customize:
+  openmenu:
