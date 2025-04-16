@@ -5,23 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6a42e5-3f94-44fa-bc53-5310f8bc26e2" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/MenuActionRegistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/item/MenuItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/item/impl/CloseMenuItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/item/impl/CompositeItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/item/impl/ConsoleCommandItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/item/impl/MessageItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/parser/MenuActionParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/parser/impl/CloseParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/parser/impl/ConsoleCommandParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/action/parser/impl/MessageParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/cache/MenuCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/loader/AbstractMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/loader/MenuLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/loader/impl/YamlMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/manager/MenuManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/menus/menu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/menus/choose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/CustomizePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/CustomizePlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/builder/MenuBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/command/MainCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/command/OpenMenuCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/config/MenuConfig$MenuItemConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/config/MenuConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/CustomizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/CustomizationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/AbstractCustomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/AbstractCustomizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/impl/EffectCustomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/impl/EffectCustomizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/impl/PrefixCustomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/impl/PrefixCustomizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/impl/TitleCustomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/customizer/impl/TitleCustomizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/impl/PlayerCustomizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/customization/impl/PlayerCustomizationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/listener/PlayerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/example/listener/PlayerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/MenuActionRegistry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/item/MenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/item/impl/CloseMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/item/impl/CompositeItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/item/impl/ConsoleCommandItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/item/impl/MessageItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/parser/MenuActionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/parser/impl/CloseParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/parser/impl/ConsoleCommandParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/action/parser/impl/MessageParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/cache/MenuCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/loader/AbstractMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/loader/MenuLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/loader/impl/YamlMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/menu/manager/MenuManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/customize-group-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/customize-group-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/menus/menu.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/CustomizePlugin.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MenuLoader.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/OpenMenuCommand.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/PrefixCustomizer.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/TitleCustomizer.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CustomizePlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomizePlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/builder/MenuBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/command/MainCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/command/OpenMenuCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/MenuConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customization/CustomizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/customization/CustomizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/AbstractCustomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/AbstractCustomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/impl/EffectCustomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/impl/EffectCustomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/impl/PrefixCustomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/impl/PrefixCustomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/impl/TitleCustomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/customization/customizer/impl/TitleCustomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/customization/impl/PlayerCustomizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/customization/impl/PlayerCustomizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/listener/PlayerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/listener/PlayerListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/MenuManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/menu/config/ChooseMenuConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/menus/choose.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,18 +113,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "osenty"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;osenty&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/osenty/customize-group.git",
-    "accountId": "af007b9f-e0fe-4062-b782-cd45e9e91408"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/osenty/customize-group.git&quot;,
+    &quot;accountId&quot;: &quot;af007b9f-e0fe-4062-b782-cd45e9e91408&quot;
   }
-}]]></component>
+}</component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="true" />
   </component>
@@ -96,28 +139,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.C:/Users/user/IdeaProjects/customize-group [wrapper].executor": "Run",
-    "Gradle.customize-group build.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "master",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/customize-group",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.C:/Users/user/IdeaProjects/customize-group [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.customize-group build.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/customize-group&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\customize-group\src\main\resources\menus" />
@@ -167,7 +212,12 @@
       <workItem from="1744451946836" duration="1829000" />
       <workItem from="1744453889534" duration="7162000" />
       <workItem from="1744464091552" duration="15854000" />
-      <workItem from="1744484831831" duration="1852000" />
+      <workItem from="1744484831831" duration="2353000" />
+      <workItem from="1744554723468" duration="180000" />
+      <workItem from="1744657483667" duration="194000" />
+      <workItem from="1744737986726" duration="29902000" />
+      <workItem from="1744780963866" duration="2175000" />
+      <workItem from="1744829097410" duration="508000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -177,7 +227,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744484986130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1744487187660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744487187660</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1744487205358</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744487205358</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

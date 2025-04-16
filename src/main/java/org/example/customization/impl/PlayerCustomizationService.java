@@ -35,4 +35,9 @@ public class PlayerCustomizationService implements CustomizationService {
     public Customizer getCustomizer(@NonNull String customizerName) {
         return customizers.get(customizerName);
     }
+
+    @Override
+    public void removeCustomization(@NonNull Player player) {
+        customizers.values().forEach(customizer -> customizer.removeCustomization(player));
+    }
 }

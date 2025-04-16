@@ -3,17 +3,14 @@ package org.example;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.experimental.FieldDefaults;
+import lombok.val;
 import net.luckperms.api.LuckPerms;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.example.command.MainCommand;
-import org.example.command.OpenMenuCommand;
+import org.example.command.CustomizeCommand;
 import org.example.customization.impl.PlayerCustomizationService;
 import org.example.listener.PlayerListener;
-import org.example.menu.action.MenuActionRegistry;
-import org.example.menu.loader.MenuLoader;
-import org.example.menu.manager.MenuManager;
 
 import java.io.File;
 
@@ -28,7 +25,7 @@ public final class CustomizePlugin extends JavaPlugin {
     public static LuckPerms luckPerms;
 
     PlayerCustomizationService playerCustomizationService;
-    MenuLoader menuLoader;
+
 
     @Override
     public void onEnable() {
@@ -38,19 +35,12 @@ public final class CustomizePlugin extends JavaPlugin {
         playerCustomizationService = new PlayerCustomizationService(this);
 
         getServer().getPluginManager().registerEvents(new PlayerListener(playerCustomizationService, this), this);
-        getCommand("customize").setExecutor(new MainCommand(this));
 
         setupLuckPerms();
 
-
-        menuLoader = new MenuLoader(new MenuActionRegistry());
-        menuLoader.loadMenus(this);
-
-        getCommand("openmenu").setExecutor(new OpenMenuCommand(menuLoader));
-
-        getServer().getPluginManager().registerEvents(new MenuManager(), this);
-
-
+        val customizeCommand = new CustomizeCommand(plugin, getConfig(), playerCustomizationService);
+        getCommand("customize").setExecutor(customizeCommand);
+        getCommand("customize").setTabCompleter(customizeCommand);
     }
 
     @Override

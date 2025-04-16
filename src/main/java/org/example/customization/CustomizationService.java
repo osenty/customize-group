@@ -7,4 +7,5 @@ import org.example.customization.customizer.Customizer;
 public interface CustomizationService {
     void customizePlayer(@NonNull Player player);
     Customizer getCustomizer(@NonNull String customizerName);
+    void removeCustomization(@NonNull Player player);
 }

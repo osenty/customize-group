@@ -14,4 +14,5 @@ public class EffectCustomizer extends AbstractCustomizer {
     public void customizePlayer(@NonNull Player player) {
 
     }
+
 }
